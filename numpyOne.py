@@ -9,6 +9,11 @@ print(array2)
 print(array3)
 
 
+print("Third row first olumn data:")
+print(array2[2,0])
+
+
+
 [5 0 3 3 7 9]
 
 
