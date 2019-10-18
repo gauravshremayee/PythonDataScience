@@ -6,3 +6,7 @@ x = np.array([1, 2, 3])
 y = np.array([3, 2, 1])
 np.concatenate([x, y])
 
+#concat more than two array 
+z = [99, 99, 99] 
+print(np.concatenate([x, y, z]))
+
