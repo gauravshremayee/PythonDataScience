@@ -2,6 +2,14 @@
 import numpy as np
 #reshape in 3*3 matrix
 #2*2 wont work as there are 9 elements ,so accomodating in 2*2 would be too less space for 9 elements
+
+print (np.arange(5))
+print (np.arange(1, 6))
+print(np.arange(5)/np.arange(1,6))
+
+#[0 1 2 3 4]
+#[1 2 3 4 5]
+#[0.         0.5        0.66666667 0.75       0.8       ]
 grid = np.arange(1, 10).reshape((3, 3)) 
 print(grid)
 #output
