@@ -62,6 +62,10 @@ print("After reshape ")
 
 print(y)
 
+print ("min and max of array is:")
+
+print ( np.min(big_array), np.max(big_array)) 
+
 print (np.subtract(x,2))
 #[-2 -1  0  1  2  3  4  5  6]
 x = np.array([-2, -1, 0, 1, 2])
