@@ -5,6 +5,8 @@ import numpy as np
 
 print (np.arange(5))
 print (np.arange(1, 6))
+
+#Divide each element of first array with second array 
 print(np.arange(5)/np.arange(1,6))
 
 #[0 1 2 3 4]
