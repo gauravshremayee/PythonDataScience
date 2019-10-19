@@ -35,6 +35,16 @@ print(np.split(x,[3,7]))
 print (np.arange(5))
 
 print (np.arange(1, 6))
+
+print ("Array is :")
+
+print(x)
+
+print ("Sum of all elements in array is ",np.sum(x))
+
+#Array is :
+#[0 1 2 3 4 5 6 7 8]
+#Sum of all elements in array is  36
 #divide each element by each element of other array 
 print(np.arange(5)/np.arange(1,6))
 
@@ -43,6 +53,7 @@ print (x)
 #Add 2 to each element 
 print (np.add(x, 2))
 #[ 2  3  4  5  6  7  8  9 10]
+
 
 print (np.subtract(x,2))
 #[-2 -1  0  1  2  3  4  5  6]
