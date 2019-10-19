@@ -46,3 +46,17 @@ print (np.add(x, 2))
 
 print (np.subtract(x,2))
 #[-2 -1  0  1  2  3  4  5  6]
+x = np.array([-2, -1, 0, 1, 2])
+print (abs(x))
+#array([2, 1, 0, 1, 2])
+
+theta = np.linspace(0, np.pi, 3)
+
+print (theta)
+
+#Now we can compute some trigonometric functions on these values:
+print("theta = ", theta) print("sin(theta) = ", np.sin(theta)) print("cos(theta) = ", np.cos(theta)) print("tan(theta) = ", np.tan(theta))
+#theta      =  [ 0.          1.57079633  3.14159265]
+#sin(theta) =  [  0.00000000e+00   1.00000000e+00   1.22464680e-16]
+#cos(theta) =  [  1.00000000e+00   6.12323400e-17  -1.00000000e+00]
+#tan(theta) =  [  0.00000000e+00   1.63312394e+16  -1.22464680e-16]
