@@ -54,6 +54,13 @@ print (x)
 print (np.add(x, 2))
 #[ 2  3  4  5  6  7  8  9 10]
 
+#reshape the array
+
+y=np.reshape(x,(3,3))
+
+print("After reshape ")
+
+print(y)
 
 print (np.subtract(x,2))
 #[-2 -1  0  1  2  3  4  5  6]
