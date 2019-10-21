@@ -12,6 +12,7 @@ print (x[np.newaxis, :])
 x.reshape((3, 1))
 
 print(x<3)
+#[ True  True False ]
 
 print ( x[:, np.newaxis])
 
