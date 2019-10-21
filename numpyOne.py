@@ -5,7 +5,7 @@ import numpy as np
 print ("np.ones()")
 print (np.ones(5))
 
-#numpy.array(object, dtype=None, copy=True, order='K', subok=False, ndmin=0)
+#numpy.array(object, dtype=None, copy=True, order='K', subok=, ndmin=0)
 
 np.array([[1, 2], [3, 4]])
 #array([[1, 2],
@@ -20,7 +20,7 @@ print (np.array([1, 2, 3], dtype=complex))
 Creating an array from sub-classes:
 
 print(np.array(np.mat('1 2; 3 4'))
-      
+    
 #array([[1, 2],
 #       [3, 4]])
 np.random.seed(0) # seed for reproducibility
