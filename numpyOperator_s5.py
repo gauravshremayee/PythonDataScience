@@ -14,6 +14,19 @@ x.reshape((3, 1))
 print(x<3)
 #[ True  True False ]
 
+
+np.any(x > 8)
+#Out[18]: True
+np.any(x < 0)
+#False
+#Are all values less than 10? 
+np.all(x < 10)
+#True
+np.all(x == 6)
+#Out[21]: False
+  
+  
+  
 print ( x[:, np.newaxis])
 
 
