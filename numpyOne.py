@@ -1,5 +1,7 @@
 import numpy as np
-
+#numpy.ones(shape, dtype=None, order='C')
+#Shape of the new array, e.g., (2, 3) or 2.
+#In below example one dimensional shape is present 
 print ("np.ones()")
 print (np.ones(5))
 
