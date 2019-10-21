@@ -1,4 +1,9 @@
 import numpy as np
+
+print ("np.ones()")
+print (np.ones(5))
+
+#[1,1,1,1,1]
 np.random.seed(0) # seed for reproducibility
 array1 = np.random.randint(10, size=6) # One-dimensional array
 array2 = np.random.randint(10, size=(3, 4)) # Two-dimensional array
