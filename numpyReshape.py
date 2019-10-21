@@ -2,8 +2,10 @@
 import numpy as np
 #reshape in 3*3 matrix
 #2*2 wont work as there are 9 elements ,so accomodating in 2*2 would be too less space for 9 elements
-
+#numpy.arange([start, ]stop, [step, ]dtype=None)¶
+#start 0 and end 5
 print (np.arange(5))
+#start is 1 and 6 is end 
 print (np.arange(1, 6))
 
 #Divide each element of first array with second array 
