@@ -5,7 +5,17 @@ import numpy as np
 print ("np.ones()")
 print (np.ones(5))
 
+#numpy.array(object, dtype=None, copy=True, order='K', subok=False, ndmin=0)
+
+np.array([[1, 2], [3, 4]])
+#array([[1, 2],
+#      [3, 4]])
 #[1,1,1,1,1]
+print(np.array([1, 2, 3], ndmin=2))
+#array([[1, 2, 3]])
+print (np.array([1, 2, 3], dtype=complex))
+#array([ 1.+0.j,  2.+0.j,  3.+0.j])
+
 np.random.seed(0) # seed for reproducibility
 array1 = np.random.randint(10, size=6) # One-dimensional array
 array2 = np.random.randint(10, size=(3, 4)) # Two-dimensional array
