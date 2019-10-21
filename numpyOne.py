@@ -14,8 +14,15 @@ np.array([[1, 2], [3, 4]])
 print(np.array([1, 2, 3], ndmin=2))
 #array([[1, 2, 3]])
 print (np.array([1, 2, 3], dtype=complex))
-#array([ 1.+0.j,  2.+0.j,  3.+0.j])
 
+#array([ 1.+0.j,  2.+0.j,  3.+0.j])
+#
+Creating an array from sub-classes:
+
+print(np.array(np.mat('1 2; 3 4'))
+      
+#array([[1, 2],
+#       [3, 4]])
 np.random.seed(0) # seed for reproducibility
 array1 = np.random.randint(10, size=6) # One-dimensional array
 array2 = np.random.randint(10, size=(3, 4)) # Two-dimensional array
