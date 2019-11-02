@@ -4,6 +4,8 @@ import pandas as pd
 
 #So, in terms of Pandas DataStructure, A Series represents a single column in memory
 #Which is either independent or belongs to a Pandas DataFrame.
+
+#If we create a Series from a python dictionary. The key becomes the row index while the value becomes the value at that row index
 data = pd.Series([0.25, 0.5, 0.75, 1.0])
 print ( data)
 
