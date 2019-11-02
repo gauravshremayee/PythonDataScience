@@ -1,6 +1,9 @@
 import pandas as pd
 #A Pandas Series is a one-dimensional array of indexed data
 #And Dataframe is 2-D data 
+
+#So, in terms of Pandas DataStructure, A Series represents a single column in memory
+#Which is either independent or belongs to a Pandas DataFrame.
 data = pd.Series([0.25, 0.5, 0.75, 1.0])
 print ( data)
 
