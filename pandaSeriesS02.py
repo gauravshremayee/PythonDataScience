@@ -1,6 +1,6 @@
 import pandas as pd
 #A Pandas Series is a one-dimensional array of indexed data
-
+#And Dataframe is 2-D data 
 data = pd.Series([0.25, 0.5, 0.75, 1.0])
 print ( data)
 
