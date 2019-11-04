@@ -55,6 +55,15 @@ data = {'row_1': [3, 2, 1, 0], 'row_2': ['a', 'b', 'c', 'd']}
 print(pd.DataFrame.from_dict(data, orient='index'))
 
 
-
+# Single selections using iloc and DataFrame
+# Rows:
+print (df.iloc[0]) # first row of data frame (Aleshia Tomkiewicz) - Note a Series data type output.
+print(df.iloc[1]) # second row of data frame (Evan Zigomalas)
+print(df.iloc[-1]) # last row of data frame (Mi Richan)
+# Columns:
+print (df.iloc[:,0]) # first column of data frame (first_name)
+print (df.iloc[:,1]) # second column of data frame (last_name)
+#Row Count 
+print (df.iloc[:,-1].count) # last column of data frame (id)
 
 #multiple
